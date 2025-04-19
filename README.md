@@ -20,4 +20,35 @@ This project aims to predict whether an attorney will be involved in an insuranc
 
 ## 📂 Project Structure
 
+## 🔍 Approach
+
+1. **Data Preprocessing**
+   - Handling missing values
+   - Encoding categorical variables
+   - Feature scaling
+
+2. **Exploratory Data Analysis**
+   - Correlation heatmaps
+   - Distribution plots
+
+3. **Modeling**
+   - Baseline Logistic Regression
+   - Advanced models: Random Forest, XGBoost
+   - Evaluation metrics: Accuracy, Precision, Recall, F1-Score, ROC-AUC
+
+4. **Deployment**
+   - Streamlit interface for real-time predictions
+
+## 📊 Sample Output
+
+- Predicted attorney involvement (`Yes/No`)
+- Model confidence score
+- Explanation of contributing features (feature importance)
+
+## 🚀 Run the App
+
+```bash
+streamlit run deploy_attorney_model.py
+
+
 
